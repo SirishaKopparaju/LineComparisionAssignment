@@ -14,8 +14,16 @@ public class LineComparison {
 	line2.setY2(7);
 	System.out.println(line.toString());
 	System.out.println(line2.toString());
-
-
-
+	if(line==line2) {
+		System.out.println("both the lines are equal");
+		
+	}
+	else {
+		
+	System.out.println("both are not equal");
+	}
 	}
 }
+
+
+	
